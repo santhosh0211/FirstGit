@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: tomcat1pod
+  labels:
+    name: tomcat1pod
+spec:
+  containers:
+      - name: tomcat
+        image: bitnami/tomcat:latest
+        ports:
+          - containerPort: 8080
