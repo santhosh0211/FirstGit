@@ -9,7 +9,7 @@ pipeline {
 
       }
       steps {
-        writeFile(file: 'Test.txt', text: 'Hello')
+        writeFile(file: 'TestPowershell.txt', text: 'Hello')
       }
     }
 
