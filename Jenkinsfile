@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('Run Powershell') {
+    stage('Create File') {
       agent {
         node {
           label 'master'
