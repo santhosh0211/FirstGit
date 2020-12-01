@@ -4,7 +4,7 @@ pipeline {
     stage('Run Powershell') {
       agent {
         node {
-          label 'Node_1'
+          label 'master'
         }
 
       }
